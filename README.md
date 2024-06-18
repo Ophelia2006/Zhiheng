@@ -1,39 +1,73 @@
-# NavigationRouter
+# 应用导航设计
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+### 介绍
+通过设计单独的路由模块和动态加载方法，解决一个Navigation组件下多har/hsp间路由跳转依赖耦合问题。
 
-#### 软件架构
-软件架构说明
+### 效果预览
+![路由导航效果预览](screenshots/device/demonstration.gif)
 
+### 工程目录
+工程的目录结构
+```
+├──entry                                          // 入口模块
+│  ├──build-profile.json5                         // 编译配置文件，其中arkOptions需配置动态import依赖的包名
+│  ├──oh-package.json5                            // 依赖配置，需依赖全部子业务模块和RouterModule模块
+│  ├──src/main/ets
+│  │  ├──entryability
+│  │  │  └──EntryAbility.ets
+│  │  └──pages
+│  │     └──Index.ets                             // 首页
+│  └──src/main/resources                          // 资源目录
+├──harA                                           // 子业务模块
+│  ├──Index.ets                                   // 入口文件，对外暴露模块方法
+│  ├──oh-package.json5                            // 依赖配置，需依赖RouterModule模块
+│  ├──src/main/ets/components/mainpage
+│  │  ├──A1.ets                                 
+│  │  └──A2.ets                                 
+│  └──src/main/resources
+├──harB                                           // 子业务模块
+│  ├──Index.ets                                   // 入口文件，对外暴露模块方法
+│  ├──oh-package.json5                            // 依赖配置，需依赖RouterModule模块
+│  ├──src/main/ets/components/mainpage
+│  │  ├──B1.ets
+│  │  ├──B2.ets
+│  │  └──B3.ets
+│  └──src/main/resources
+├──harC                                           // 子业务模块
+│  ├──Index.ets                                   // 入口文件，对外暴露模块方法
+│  ├──oh-package.json5                            // 依赖配置，需依赖RouterModule模块
+│  ├──src/main/ets/components/mainpage
+│  │  ├──C1.ets
+│  │  └──C2.ets
+│  └──src/main/resources
+└──RouterModule                                   // 路由模块
+   ├──Index.ets                                   // 入口文件，对外暴露路由的方法和常量
+   ├──oh-package.json5
+   ├──src/main/ets/constants                      // 路由信息常量
+   │  └──RouterConstants.ets
+   ├──src/main/ets/model                          // 路由信息模型
+   │  └──RouterModel.ets
+   ├──src/main/ets/utils                          // 对外提供的路由方法
+   │  └──RouterModule.ets
+   └──src/main/resources
+```
 
-#### 安装教程
+### 具体实现
+1.将路由功能抽取成单独的模块并以har包形式存在，命名为RouterModule。
+2.RouterModule内部对路由进行管理，对外暴露RouterModule对象供其他模块使用。
+3.将主入口模块作为其他业务模块的依赖注册中心，在入口模块中使用Navigation组件并依赖其他业务模块。
+4.业务模块仅依赖RouterModule，业务模块中的路由统一委托到RouterModule中管理，实现业务模块间的解耦。
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+![路由导航效果预览](screenshots/device/module_dependency.jpg)
 
-#### 使用说明
+### 相关权限
+不涉及。
+### 约束与限制
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. 本示例仅支持标准系统上运行，支持设备：华为手机。
 
-#### 参与贡献
+2. HarmonyOS系统：HarmonyOS NEXT Developer Beta1及以上。
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+3. DevEco Studio版本：DevEco Studio NEXT Developer Beta1及以上。
 
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+4. HarmonyOS SDK版本：HarmonyOS NEXT Developer Beta1 SDK及以上。
