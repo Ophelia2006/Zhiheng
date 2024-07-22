@@ -53,10 +53,10 @@
 ```
 
 ### 具体实现
-1.将路由功能抽取成单独的模块并以har包形式存在，命名为RouterModule。
-2.RouterModule内部对路由进行管理，对外暴露RouterModule对象供其他模块使用。
-3.将主入口模块作为其他业务模块的依赖注册中心，在入口模块中使用Navigation组件并依赖其他业务模块。
-4.业务模块仅依赖RouterModule，业务模块中的路由统一委托到RouterModule中管理，实现业务模块间的解耦。
+1. 将路由功能抽取成单独的模块并以har包形式存在，命名为RouterModule。
+2. RouterModule内部对路由进行管理，对外暴露RouterModule对象供其他模块使用。
+3. 将主入口模块作为其他业务模块的依赖注册中心，在入口模块中使用Navigation组件并依赖其他业务模块。
+4. 业务模块仅依赖RouterModule，业务模块中的路由统一委托到RouterModule中管理，实现业务模块间的解耦。
 
 ![路由导航效果预览](screenshots/device/module_dependency.jpg)
 
