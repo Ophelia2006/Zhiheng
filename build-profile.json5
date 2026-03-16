@@ -22,7 +22,7 @@
   "modules": [
     {
       "name": "entry",
-      "srcPath": "./entry",
+      "srcPath": "./products/entry",
       "targets": [
         {
           "name": "default",
@@ -33,20 +33,20 @@
       ]
     },
     {
-      "name": "harA",
-      "srcPath": "./harA"
+      "name": "interview",
+      "srcPath": "./features/interview"
     },
     {
-      "name": "harB",
-      "srcPath": "./harB"
+      "name": "report",
+      "srcPath": "./features/report"
     },
     {
       "name": "RouterModule",
-      "srcPath": "./RouterModule"
+      "srcPath": "./commons/RouterModule"
     },
     {
-      "name": "harC",
-      "srcPath": "./harC"
+      "name": "mine",
+      "srcPath": "./features/mine"
     }
   ]
 }

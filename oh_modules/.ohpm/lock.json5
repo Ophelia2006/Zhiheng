@@ -1,0 +1,126 @@
+{
+  "lockVersion": "1.0",
+  "settings": {
+    "resolveConflict": true,
+    "resolveConflictStrict": false,
+    "installAll": true
+  },
+  "overrides": {},
+  "overrideDependencyMap": {},
+  "modules": {
+    ".": {
+      "name": "",
+      "dependencies": {},
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "commons/RouterModule": {
+      "name": "RouterModule",
+      "dependencies": {},
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/interview": {
+      "name": "interview",
+      "dependencies": {
+        "@ohos/routermodule": {
+          "specifier": "file:commons/RouterModule",
+          "version": "file:commons/RouterModule"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/mine": {
+      "name": "mine",
+      "dependencies": {
+        "@ohos/routermodule": {
+          "specifier": "file:commons/RouterModule",
+          "version": "file:commons/RouterModule"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/report": {
+      "name": "report",
+      "dependencies": {
+        "@ohos/routermodule": {
+          "specifier": "file:commons/RouterModule",
+          "version": "file:commons/RouterModule"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "products/entry": {
+      "name": "entry",
+      "dependencies": {
+        "@ohos/routermodule": {
+          "specifier": "file:commons/RouterModule",
+          "version": "file:commons/RouterModule"
+        },
+        "@ohos/hara": {
+          "specifier": "file:features/interview",
+          "version": "file:features/interview"
+        },
+        "@ohos/harb": {
+          "specifier": "file:features/report",
+          "version": "file:features/report"
+        },
+        "@ohos/harc": {
+          "specifier": "file:features/mine",
+          "version": "file:features/mine"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    }
+  },
+  "packages": {
+    "@ohos/routermodule@file:commons/RouterModule": {
+      "storePath": "commons/RouterModule",
+      "dependencies": {},
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/hara@file:features/interview": {
+      "storePath": "features/interview",
+      "dependencies": {
+        "@ohos/routermodule": "commons/RouterModule"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/harc@file:features/mine": {
+      "storePath": "features/mine",
+      "dependencies": {
+        "@ohos/routermodule": "commons/RouterModule"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/harb@file:features/report": {
+      "storePath": "features/report",
+      "dependencies": {
+        "@ohos/routermodule": "commons/RouterModule"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    }
+  }
+}

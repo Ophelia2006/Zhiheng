@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "report",
+    "type": "har",
+    "deviceTypes": [
+      "phone"
+    ]
+  }
+}

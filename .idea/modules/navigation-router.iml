@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../..">
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/app/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/library/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/library/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/ios/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../RouterModule/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../RouterModule/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../RouterModule/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../RouterModule/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../RouterModule/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../RouterModule/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../entry/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../entry/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../entry/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../entry/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../entry/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../entry/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../interview/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../interview/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../interview/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../interview/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../interview/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../interview/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../mine/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../mine/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../mine/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../mine/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../mine/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../mine/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../report/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../report/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../report/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../report/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../report/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../report/oh_modules" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="" scope="PROVIDED">
+      <library name="ArkTS-HarmonyOS-6.0.0(openharmony)" type="ArkUI">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/openharmony/ets/api" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/openharmony/ets/component" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/openharmony/ets/kits" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/openharmony/ets/arkts" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="PROVIDED">
+      <library name="ArkTS-HarmonyOS-6.0.0(hms)" type="ArkUI">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/hms/ets/api" />
+          <root url="file://$APPLICATION_HOME_DIR$/sdk/default/hms/ets/kits" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

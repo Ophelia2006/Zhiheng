@@ -1,0 +1,103 @@
+{
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULES": [
+      {
+        "MODULE_NAME": "1043bfc77febe75fafec0c4309faccf1",
+        "API_TYPE": "stageMode",
+        "INCREMENTAL_TASKS": {
+          "COMPILE_ARKTS": true
+        }
+      },
+      {
+        "MODULE_NAME": "04980744f74f4ec36ad5a9d5fec8876f",
+        "API_TYPE": "stageMode"
+      },
+      {
+        "MODULE_NAME": "e98d2f001da5678b39482efbdf5770dc",
+        "API_TYPE": "stageMode"
+      },
+      {
+        "MODULE_NAME": "23b8f96de2c92d18c306c4ac6c7d6e60",
+        "API_TYPE": "stageMode"
+      },
+      {
+        "MODULE_NAME": "918b81db5e91d031548b963c93845e5b",
+        "API_TYPE": "stageMode"
+      }
+    ],
+    "NATIVE_COMPILER": "Default",
+    "BUILD_MODE": "debug"
+  },
+  "HVIGOR": {
+    "IS_INCREMENTAL": true,
+    "IS_DAEMON": true,
+    "IS_PARALLEL": true,
+    "IS_HVIGORFILE_TYPE_CHECK": false,
+    "TASK_TIME": {
+      "1043bfc77febe75fafec0c4309faccf1": {
+        "CreateModuleInfo": 398100,
+        "PreCheckSyscap": 220100,
+        "GeneratePkgContextInfo": 5410100,
+        "ProcessIntegratedHsp": 483300,
+        "SyscapTransform": 1788200,
+        "ProcessStartupConfig": 554100,
+        "GenerateLoaderJson": 19730800,
+        "ConfigureCmake": 254400,
+        "BuildNativeWithCmake": 192600,
+        "BuildJS": 2802700,
+        "BuildNativeWithNinja": 416400,
+        "CompileArkTS": 954346600,
+        "ProcessCompiledResources": 455100,
+        "PackageHap": 51497200,
+        "PackingCheck": 3255400,
+        "SignHap": 1391800,
+        "CollectDebugSymbol": 1857400,
+        "assembleHap": 125100
+      },
+      "23b8f96de2c92d18c306c4ac6c7d6e60": {
+        "ConfigureCmake": 200600,
+        "BuildNativeWithCmake": 180700,
+        "BuildNativeWithNinja": 559300
+      },
+      "04980744f74f4ec36ad5a9d5fec8876f": {
+        "ConfigureCmake": 216000,
+        "BuildNativeWithCmake": 333100,
+        "BuildNativeWithNinja": 412000
+      },
+      "e98d2f001da5678b39482efbdf5770dc": {
+        "ConfigureCmake": 171100,
+        "BuildNativeWithCmake": 249700,
+        "BuildNativeWithNinja": 367000
+      },
+      "918b81db5e91d031548b963c93845e5b": {
+        "ConfigureCmake": 354800,
+        "BuildNativeWithCmake": 215600,
+        "BuildNativeWithNinja": 402800
+      }
+    },
+    "APIS": [
+      "getHvigorConfig",
+      "getRootNodeDescriptor",
+      "getChildNode",
+      "getNodeByName",
+      "getAllNodes",
+      "getRootNode",
+      "getNodeName",
+      "getNodePath",
+      "subNodes",
+      "getExtraOption",
+      "getExtParam",
+      "getExtParams",
+      "getProperty",
+      "getProperties",
+      "getParameter",
+      "getProductName",
+      "nodesEvaluated",
+      "getCommandEntryTask",
+      "getStartParams"
+    ],
+    "CONFIG_PROPERTIES": {},
+    "TOTAL_TIME": 1376554000,
+    "BUILD_ID": "202603161923383930"
+  }
+}
