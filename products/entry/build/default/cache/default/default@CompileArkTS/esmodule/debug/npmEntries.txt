@@ -1,9 +1,9 @@
-pkg_modules@entry/@ohos/hara:com.example.zhiheng/entry@interview/Index
-@ohos/hara:@bundle.com.example.zhiheng/entry@interview/Index
-pkg_modules@entry/@ohos/harb:com.example.zhiheng/entry@report/Index
-@ohos/harb:@bundle.com.example.zhiheng/entry@report/Index
-pkg_modules@entry/@ohos/harc:com.example.zhiheng/entry@mine/Index
-@ohos/harc:@bundle.com.example.zhiheng/entry@mine/Index
+pkg_modules@entry/@ohos/interview:com.example.zhiheng/entry@interview/Index
+@ohos/interview:@bundle.com.example.zhiheng/entry@interview/Index
+pkg_modules@entry/@ohos/report:com.example.zhiheng/entry@report/Index
+@ohos/report:@bundle.com.example.zhiheng/entry@report/Index
+pkg_modules@entry/@ohos/mine:com.example.zhiheng/entry@mine/Index
+@ohos/mine:@bundle.com.example.zhiheng/entry@mine/Index
 @system.app:@native.system.app
 @ohos.app:@native.ohos.app
 @system.router:@native.system.router

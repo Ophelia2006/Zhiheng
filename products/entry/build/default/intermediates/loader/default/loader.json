@@ -35,10 +35,10 @@
   ],
   "otherCompileFiles": [],
   "dynamicImportLibInfo": {
-    "@ohos/hara": {
+    "@ohos/interview": {
       "hostModulesInfo": [
         {
-          "hostDependencyName": "@ohos/hara",
+          "hostDependencyName": "@ohos/interview",
           "hostModuleName": "entry"
         }
       ],
@@ -47,10 +47,10 @@
       "isLocalDependency": true,
       "pkgPath": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview"
     },
-    "@ohos/harb": {
+    "@ohos/report": {
       "hostModulesInfo": [
         {
-          "hostDependencyName": "@ohos/harb",
+          "hostDependencyName": "@ohos/report",
           "hostModuleName": "entry"
         }
       ],
@@ -59,10 +59,10 @@
       "isLocalDependency": true,
       "pkgPath": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report"
     },
-    "@ohos/harc": {
+    "@ohos/mine": {
       "hostModulesInfo": [
         {
-          "hostDependencyName": "@ohos/harc",
+          "hostDependencyName": "@ohos/mine",
           "hostModuleName": "entry"
         }
       ],

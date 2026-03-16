@@ -20,9 +20,9 @@
         "sources": [
         ],
         "packages": [
-          "@ohos/hara",
-          "@ohos/harb",
-          "@ohos/harc"
+          "@ohos/interview",
+          "@ohos/report",
+          "@ohos/mine"
         ]
       }
     }

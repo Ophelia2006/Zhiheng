@@ -65,15 +65,15 @@
           "specifier": "file:commons/RouterModule",
           "version": "file:commons/RouterModule"
         },
-        "@ohos/hara": {
+        "@ohos/interview": {
           "specifier": "file:features/interview",
           "version": "file:features/interview"
         },
-        "@ohos/harb": {
+        "@ohos/report": {
           "specifier": "file:features/report",
           "version": "file:features/report"
         },
-        "@ohos/harc": {
+        "@ohos/mine": {
           "specifier": "file:features/mine",
           "version": "file:features/mine"
         }
@@ -92,7 +92,17 @@
       "dynamic": false,
       "maskedByOverrideDependencyMap": false
     },
-    "@ohos/hara@file:features/interview": {
+    "@ohos/report@file:features/report": {
+      "storePath": "features/report",
+      "dependencies": {
+        "@ohos/routermodule": "commons/RouterModule"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/interview@file:features/interview": {
       "storePath": "features/interview",
       "dependencies": {
         "@ohos/routermodule": "commons/RouterModule"
@@ -102,18 +112,8 @@
       "dynamic": false,
       "maskedByOverrideDependencyMap": false
     },
-    "@ohos/harc@file:features/mine": {
+    "@ohos/mine@file:features/mine": {
       "storePath": "features/mine",
-      "dependencies": {
-        "@ohos/routermodule": "commons/RouterModule"
-      },
-      "dynamicDependencies": {},
-      "dev": false,
-      "dynamic": false,
-      "maskedByOverrideDependencyMap": false
-    },
-    "@ohos/harb@file:features/report": {
-      "storePath": "features/report",
       "dependencies": {
         "@ohos/routermodule": "commons/RouterModule"
       },

@@ -21,9 +21,9 @@
   "license": "",
   "dependencies": {
     "@ohos/routermodule": "file:../../commons/RouterModule",
-    "@ohos/hara": "file:../../features/interview",
-    "@ohos/harb": "file:../../features/report",
-    "@ohos/harc": "file:../../features/mine"
+    "@ohos/interview": "file:../../features/interview",
+    "@ohos/report": "file:../../features/report",
+    "@ohos/mine": "file:../../features/mine"
   }
 }
 

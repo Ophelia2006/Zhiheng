@@ -19,10 +19,10 @@ export {InterviewPage}from './src/main/ets/pages/InterviewPage'
 export function harInit(builderName: string): void {
   // 动态引入要跳转的页面
   switch (builderName) {
-    case BuilderNameConstants.HARA_A1:
+    case BuilderNameConstants.INTERVIEW_INTRODUCTION:
       import("./src/main/ets/pages/introduction");
       break;
-    case BuilderNameConstants.HARA_A2:
+    case BuilderNameConstants.INTERVIEW_DIALOG:
       import("./src/main/ets/pages/dialog");
       break;
     default:
