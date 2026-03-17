@@ -375,6 +375,220 @@
     },
     "BUILD_CACHE_DIR": ""
   },
+  "ohos-module-Auth": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\src\\main",
+        "RESOURCES_PATH": [
+          "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\cache\\default\\default@CompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\cache\\default\\default@CompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\hsp_metadata\\default\\output_metadata.json",
+          "SOURCE_MAP_DIR": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\source_map\\default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\src\\ohosTest",
+        "RESOURCES_PATH": [
+          "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\src\\ohosTest\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\hsp_metadata\\ohosTest\\output_metadata.json",
+          "SOURCE_MAP_DIR": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\source_map\\ohosTest"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "resOptions": {
+          "copyCodeResource": {
+            "enable": false
+          }
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "resOptions": {
+          "copyCodeResource": {
+            "enable": false
+          }
+        }
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              },
+              "consumerFiles": [
+                "./consumer-rules.txt"
+              ]
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
+  "ohos-module-login": {
+    "SELECT_TARGET": "default",
+    "MODULE_BUILD_DIR": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build",
+    "TARGETS": {
+      "default": {
+        "SOURCE_ROOT": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\src\\main",
+        "RESOURCES_PATH": [
+          "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\src\\main\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\outputs\\default",
+          "INTERMEDIA_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\loader_out\\default",
+          "JS_LITE_ASSETS_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\loader_out_lite\\default",
+          "RES_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\res\\default",
+          "RES_PROFILE_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\cache\\default\\default@HarCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\cache\\default\\default@HarCompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\loader\\default\\loader.json",
+          "MANIFEST_JSON": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\manifest\\default",
+          "OUTPUT_METADATA_JSON": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\hap_metadata\\default\\output_metadata.json",
+          "SOURCE_MAP_DIR": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\source_map\\default"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      },
+      "ohosTest": {
+        "SOURCE_ROOT": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\src\\ohosTest",
+        "RESOURCES_PATH": [
+          "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\src\\ohosTest\\resources"
+        ],
+        "BUILD_PATH": {
+          "OUTPUT_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\outputs\\ohosTest",
+          "INTERMEDIA_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates",
+          "JS_ASSETS_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\loader_out\\ohosTest",
+          "JS_LITE_ASSETS_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\loader_out_lite\\ohosTest",
+          "RES_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\res\\ohosTest",
+          "RES_PROFILE_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\res\\ohosTest\\resources\\base\\profile",
+          "ETS_SUPER_VISUAL_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileArkTS\\esmodule",
+          "JS_SUPER_VISUAL_PATH": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\cache\\ohosTest\\ohosTest@OhosTestCompileJS\\jsbundle",
+          "WORKER_LOADER": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\loader\\ohosTest\\loader.json",
+          "MANIFEST_JSON": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\manifest\\ohosTest",
+          "OUTPUT_METADATA_JSON": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\hap_metadata\\ohosTest\\output_metadata.json",
+          "SOURCE_MAP_DIR": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\build\\default\\intermediates\\source_map\\ohosTest"
+        },
+        "BUILD_OPTION": {
+          "debuggable": true
+        }
+      }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default",
+        "resOptions": {
+          "copyCodeResource": {
+            "enable": false
+          }
+        },
+        "name": "debug"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {
+        "resOptions": {
+          "copyCodeResource": {
+            "enable": false
+          }
+        }
+      },
+      "buildOptionSet": [
+        {
+          "name": "release",
+          "arkOptions": {
+            "obfuscation": {
+              "ruleOptions": {
+                "enable": false,
+                "files": [
+                  "./obfuscation-rules.txt"
+                ]
+              },
+              "consumerFiles": [
+                "./consumer-rules.txt"
+              ]
+            }
+          }
+        },
+        {
+          "name": "default"
+        },
+        {
+          "name": "debug"
+        }
+      ],
+      "targets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "ohosTest"
+        }
+      ]
+    },
+    "BUILD_CACHE_DIR": ""
+  },
   "ohos-project": {
     "SELECT_PRODUCT_NAME": "default",
     "MODULE_BUILD_DIR": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\build",
@@ -414,6 +628,24 @@
       {
         "name": "mine",
         "srcPath": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine",
+        "belongProjectPath": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng"
+      },
+      {
+        "name": "Auth",
+        "srcPath": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ],
+        "belongProjectPath": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng"
+      },
+      {
+        "name": "login",
+        "srcPath": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login",
         "belongProjectPath": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng"
       }
     ],
@@ -466,6 +698,22 @@
         {
           "name": "mine",
           "srcPath": "./features/mine"
+        },
+        {
+          "name": "Auth",
+          "srcPath": "./commons/Auth",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "login",
+          "srcPath": "./features/login"
         }
       ]
     },

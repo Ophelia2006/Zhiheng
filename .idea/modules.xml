@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Auth.iml" filepath="$PROJECT_DIR$/.idea/modules/Auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/RouterModule.iml" filepath="$PROJECT_DIR$/.idea/modules/RouterModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Zhiheng.iml" filepath="$PROJECT_DIR$/.idea/modules/Zhiheng.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/entry.iml" filepath="$PROJECT_DIR$/.idea/modules/entry.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/interview.iml" filepath="$PROJECT_DIR$/.idea/modules/interview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/login.iml" filepath="$PROJECT_DIR$/.idea/modules/login.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mine.iml" filepath="$PROJECT_DIR$/.idea/modules/mine.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/report.iml" filepath="$PROJECT_DIR$/.idea/modules/report.iml" />
     </modules>

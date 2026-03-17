@@ -15,6 +15,13 @@
       "dynamicDependencies": {},
       "maskedByOverrideDependencyMap": false
     },
+    "commons/Auth": {
+      "name": "Auth",
+      "dependencies": {},
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
     "commons/RouterModule": {
       "name": "RouterModule",
       "dependencies": {},
@@ -24,6 +31,18 @@
     },
     "features/interview": {
       "name": "interview",
+      "dependencies": {
+        "@ohos/routermodule": {
+          "specifier": "file:commons/RouterModule",
+          "version": "file:commons/RouterModule"
+        }
+      },
+      "devDependencies": {},
+      "dynamicDependencies": {},
+      "maskedByOverrideDependencyMap": false
+    },
+    "features/login": {
+      "name": "login",
       "dependencies": {
         "@ohos/routermodule": {
           "specifier": "file:commons/RouterModule",
@@ -92,8 +111,8 @@
       "dynamic": false,
       "maskedByOverrideDependencyMap": false
     },
-    "@ohos/report@file:features/report": {
-      "storePath": "features/report",
+    "@ohos/interview@file:features/interview": {
+      "storePath": "features/interview",
       "dependencies": {
         "@ohos/routermodule": "commons/RouterModule"
       },
@@ -112,8 +131,8 @@
       "dynamic": false,
       "maskedByOverrideDependencyMap": false
     },
-    "@ohos/interview@file:features/interview": {
-      "storePath": "features/interview",
+    "@ohos/report@file:features/report": {
+      "storePath": "features/report",
       "dependencies": {
         "@ohos/routermodule": "commons/RouterModule"
       },

@@ -83,7 +83,7 @@ export struct ReportDetailComponent {
     .width('100%')
     .padding(20)
     .backgroundColor('#FFFFFF')
-    .borderRadius(16)
+    .borderRadius(30)
     .alignItems(HorizontalAlign.Center)
     .shadow({ radius: 10, color: '#0A000000', offsetX: 0, offsetY: 4 })
   }
@@ -143,7 +143,7 @@ export struct ReportDetailComponent {
     .width('100%')
     .padding(20)
     .backgroundColor('#FFFFFF')
-    .borderRadius(16)
+    .borderRadius(30)
     .shadow({ radius: 10, color: '#0A000000', offsetX: 0, offsetY: 4 })
   }
 
@@ -172,7 +172,7 @@ export struct ReportDetailComponent {
     .width('100%')
     .padding(20)
     .backgroundColor('#FFFFFF')
-    .borderRadius(16)
+    .borderRadius(30)
     .shadow({ radius: 10, color: '#0A000000', offsetX: 0, offsetY: 4 })
   }
 
@@ -207,7 +207,7 @@ export struct ReportDetailComponent {
     .width('100%')
     .padding(20)
     .backgroundColor('#FFFFFF')
-    .borderRadius(16)
+    .borderRadius(30)
     .shadow({ radius: 10, color: '#0A000000', offsetX: 0, offsetY: 4 })
   }
 
@@ -314,7 +314,7 @@ export struct ReportDetailComponent {
     .width('100%')
     .padding(20)
     .backgroundColor('#FFFFFF')
-    .borderRadius(16)
+    .borderRadius(30)
     .shadow({ radius: 10, color: '#0A000000', offsetX: 0, offsetY: 4 })
   }
 }

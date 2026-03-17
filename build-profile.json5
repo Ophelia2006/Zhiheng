@@ -47,6 +47,22 @@
     {
       "name": "mine",
       "srcPath": "./features/mine"
+    },
+    {
+      "name": "Auth",
+      "srcPath": "./commons/Auth",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "login",
+      "srcPath": "./features/login",
     }
   ]
 }

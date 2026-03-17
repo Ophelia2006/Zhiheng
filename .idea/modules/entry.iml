@@ -47,6 +47,18 @@
       <excludeFolder url="file://$MODULE_DIR$/../../products/entry/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../products/entry/node_modules" />
       <excludeFolder url="file://$MODULE_DIR$/../../products/entry/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/Auth/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/Auth/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/Auth/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/Auth/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/Auth/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/Auth/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/login/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/login/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/login/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/login/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/login/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/login/oh_modules" />
     </content>
     <content url="file://$MODULE_DIR$/../../products/entry" />
     <orderEntry type="sourceFolder" forTests="false" />
