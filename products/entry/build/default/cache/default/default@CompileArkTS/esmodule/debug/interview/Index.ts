@@ -7,7 +7,7 @@ export function harInit(builderName: string): void {
             import("@bundle:com.example.zhiheng/entry@interview/ets/pages/introduction");
             break;
         case BuilderNameConstants.INTERVIEW_DIALOG:
-            import("@bundle:com.example.zhiheng/entry@interview/ets/pages/dialog");
+            import("@bundle:com.example.zhiheng/entry@interview/ets/pages/DialogPage");
             break;
         default:
             break;

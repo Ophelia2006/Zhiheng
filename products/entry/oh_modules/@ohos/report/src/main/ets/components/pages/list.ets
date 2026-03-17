@@ -17,19 +17,8 @@ import { BuilderNameConstants, buildRouterModel, RouterModule, RouterNameConstan
 @Builder
 export function listBuilder(value: object) {
   NavDestination() {
-    Column() {
-      Button($r("app.string.to_harb_pageB2"), { stateEffect: true, type: ButtonType.Capsule })
-        .width('80%')
-        .height(40)
-        .margin(20)
-        .onClick(() => {
-          buildRouterModel(RouterNameConstants.ENTRY_HAP, BuilderNameConstants.HARB_B2);
-        })
-    }
-    .width('100%')
-    .height('100%')
+
   }
-  .title('B1Page')
   .onBackPressed(() => {
     RouterModule.pop(RouterNameConstants.ENTRY_HAP);
     return true;

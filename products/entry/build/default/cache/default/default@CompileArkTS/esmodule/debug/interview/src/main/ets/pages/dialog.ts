@@ -20,7 +20,7 @@ export function dialogBuilder(value: object, parent = null) {
                 }, { name: "ResumeAddComponent" });
             }
         }, { moduleName: "entry", pagePath: "features/interview/src/main/ets/pages/dialog" });
-        NavDestination.title('A2Page');
+        NavDestination.hideTitleBar(true);
         NavDestination.onBackPressed(() => {
             RouterModule.pop(RouterNameConstants.ENTRY_HAP);
             return true;

@@ -103,7 +103,9 @@
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\products\\entry\\src\\main\\ets\\entryability\\EntryAbility.ets",
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\src\\main\\ets\\utils\\Logger.ets",
-        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\InterviewPage.ets"
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\InterviewPage.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\ProfileComponent.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\ReportDetailComponent.ets"
       ],
       "error": false
     },
@@ -699,7 +701,8 @@
         "D:\\Software\\Office\\DevEcoStudio\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.window.d.ts",
         "D:\\Software\\Office\\DevEcoStudio\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.UIContext.d.ts",
         "D:\\Software\\Office\\DevEcoStudio\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\content_slot.d.ts",
-        "D:\\Software\\Office\\DevEcoStudio\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\node_container.d.ts"
+        "D:\\Software\\Office\\DevEcoStudio\\DevEco Studio\\sdk\\default\\openharmony\\ets\\build-tools\\ets-loader\\declarations\\node_container.d.ts",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\ReportDetailComponent.ets"
       ],
       "error": false
     },
@@ -2104,7 +2107,17 @@
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\components\\pages\\account.ets",
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\InterviewPage.ets",
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\introduction.ets",
-        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\dialog.ets"
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\dialog.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\ResumeAddComponent.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\personal.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\account.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\DialogPage.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\ProfileComponent.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\ProfilePage.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\PersonalPage.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\ReportDetailPage.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\ReportDetailComponent.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\ReportPage.ets"
       ],
       "error": false
     },
@@ -2129,12 +2142,12 @@
       "error": false
     },
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\Index.ets": {
-      "mtimeMs": 1773662708079.9844,
+      "mtimeMs": 1773668986713.51,
       "children": [
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets",
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\InterviewPage.ets",
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\introduction.ets",
-        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\dialog.ets"
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\DialogPage.ets"
       ],
       "parent": [
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\products\\entry\\src\\main\\ets\\pages\\Index.ets"
@@ -2165,7 +2178,7 @@
       "error": false
     },
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\src\\main\\ets\\constants\\RouterConstants.ets": {
-      "mtimeMs": 1773304566153.3567,
+      "mtimeMs": 1773670471412.7112,
       "children": [],
       "parent": [
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets"
@@ -2203,12 +2216,12 @@
       "error": false
     },
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\Index.ets": {
-      "mtimeMs": 1773572852870.6,
+      "mtimeMs": 1773740322066.1475,
       "children": [
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets",
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\ReportPage.ets",
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\list.ets",
-        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\detail.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\ReportDetailPage.ets",
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\B3.ets"
       ],
       "parent": [
@@ -2237,12 +2250,13 @@
       "error": false
     },
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\Index.ets": {
-      "mtimeMs": 1773572610479.3726,
+      "mtimeMs": 1773740518066.7935,
       "children": [
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets",
-        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\components\\pages\\ProfilePage.ets",
-        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\components\\pages\\personal.ets",
-        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\components\\pages\\account.ets"
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\PersonalPage.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\ProfileComponent.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\ProfilePage.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\account.ets"
       ],
       "parent": [
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\products\\entry\\src\\main\\ets\\pages\\Index.ets"
@@ -2262,7 +2276,7 @@
       "error": false
     },
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\products\\entry\\src\\main\\ets\\pages\\Index.ets": {
-      "mtimeMs": 1773572871223.6284,
+      "mtimeMs": 1773741050450.9998,
       "children": [
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets",
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\Index.ets",
@@ -2311,7 +2325,7 @@
       "error": false
     },
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\list.ets": {
-      "mtimeMs": 1773304566036.556,
+      "mtimeMs": 1773740148168.535,
       "children": [
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets"
       ],
@@ -2350,8 +2364,10 @@
       "error": false
     },
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\ReportPage.ets": {
-      "mtimeMs": 1773571981173.9688,
-      "children": [],
+      "mtimeMs": 1773740450251.5232,
+      "children": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets"
+      ],
       "parent": [
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\products\\entry\\src\\main\\ets\\pages\\Index.ets",
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\Index.ets"
@@ -2359,7 +2375,7 @@
       "error": false
     },
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\components\\pages\\ProfilePage.ets": {
-      "mtimeMs": 1773300289770.5618,
+      "mtimeMs": 1773664166464.781,
       "children": [],
       "parent": [
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\Index.ets"
@@ -2387,7 +2403,7 @@
       "error": false
     },
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\InterviewPage.ets": {
-      "mtimeMs": 1773660115270.1074,
+      "mtimeMs": 1773668916580.725,
       "children": [
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets",
         "D:\\Software\\Office\\DevEcoStudio\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.hilog.d.ts"
@@ -2398,7 +2414,7 @@
       "error": false
     },
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\introduction.ets": {
-      "mtimeMs": 1773304566036.556,
+      "mtimeMs": 1773669370414.3015,
       "children": [
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets"
       ],
@@ -2408,7 +2424,7 @@
       "error": false
     },
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\dialog.ets": {
-      "mtimeMs": 1773660216375.1953,
+      "mtimeMs": 1773666734014.2869,
       "children": [
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets",
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\ResumeAddComponent.ets"
@@ -2438,14 +2454,103 @@
       "error": false
     },
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\ResumeAddComponent.ets": {
-      "mtimeMs": 1773660182093.1497,
+      "mtimeMs": 1773672428882.4358,
       "children": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets",
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\model\\Message.ets",
         "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\viewmodel\\InterviewViewModel.ets",
         "D:\\Software\\Office\\DevEcoStudio\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.multimedia.image.d.ts"
       ],
       "parent": [
-        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\dialog.ets"
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\dialog.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\DialogPage.ets"
+      ],
+      "error": false
+    },
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\ProfilePage.ets": {
+      "mtimeMs": 1773670530923.9502,
+      "children": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\ProfileComponent.ets"
+      ],
+      "parent": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\Index.ets"
+      ],
+      "error": false
+    },
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\personal.ets": {
+      "mtimeMs": 1773304566036.556,
+      "children": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets"
+      ],
+      "parent": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\Index.ets"
+      ],
+      "error": false
+    },
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\account.ets": {
+      "mtimeMs": 1773303787900.386,
+      "children": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets"
+      ],
+      "parent": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\Index.ets"
+      ],
+      "error": false
+    },
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\DialogPage.ets": {
+      "mtimeMs": 1773666734014.2869,
+      "children": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\src\\main\\ets\\pages\\ResumeAddComponent.ets"
+      ],
+      "parent": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview\\Index.ets"
+      ],
+      "error": false
+    },
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\PersonalPage.ets": {
+      "mtimeMs": 1773738601603.774,
+      "children": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets"
+      ],
+      "parent": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\Index.ets"
+      ],
+      "error": false
+    },
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\ProfileComponent.ets": {
+      "mtimeMs": 1773738601824.6426,
+      "children": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets",
+        "D:\\Software\\Office\\DevEcoStudio\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.hilog.d.ts"
+      ],
+      "parent": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\Index.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\ProfilePage.ets"
+      ],
+      "error": false
+    },
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\ReportDetailPage.ets": {
+      "mtimeMs": 1773740251167.881,
+      "children": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets",
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\ReportDetailComponent.ets"
+      ],
+      "parent": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\Index.ets"
+      ],
+      "error": false
+    },
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\ReportDetailComponent.ets": {
+      "mtimeMs": 1773740864372.5332,
+      "children": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule\\Index.ets",
+        "D:\\Software\\Office\\DevEcoStudio\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.hilog.d.ts",
+        "D:\\Software\\Office\\DevEcoStudio\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.arkui.node.d.ts"
+      ],
+      "parent": [
+        "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\ReportDetailPage.ets"
       ],
       "error": false
     }

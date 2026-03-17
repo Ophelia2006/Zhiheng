@@ -4,7 +4,6 @@ import { hilog } from '@kit.PerformanceAnalysisKit';
 
 @Component
 export struct InterviewPage {
-  // @Consume('pageStack') pageStack: NavPathStack;
 
   build() {
     Stack({ alignContent: Alignment.Bottom }) {
@@ -68,7 +67,7 @@ export struct InterviewPage {
           }
           .width('100%')
         }
-        .width('100%')
+        .width('95%')
         .backgroundColor($r('app.color.green_tabs'))
         .borderRadius(30)
         .padding(30)

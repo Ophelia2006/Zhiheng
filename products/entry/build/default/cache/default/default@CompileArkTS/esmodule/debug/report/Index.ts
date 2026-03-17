@@ -6,8 +6,8 @@ export function harInit(builderName: string): void {
         case BuilderNameConstants.HARB_B1:
             import("@bundle:com.example.zhiheng/entry@report/ets/components/pages/list");
             break;
-        case BuilderNameConstants.HARB_B2:
-            import("@bundle:com.example.zhiheng/entry@report/ets/components/pages/detail");
+        case BuilderNameConstants.REPORT_DETAIL:
+            import("@bundle:com.example.zhiheng/entry@report/ets/components/pages/ReportDetailPage");
             break;
         case BuilderNameConstants.HARB_B3:
             import("@bundle:com.example.zhiheng/entry@report/ets/components/pages/B3");

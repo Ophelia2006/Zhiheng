@@ -16,7 +16,7 @@
 import { BuilderNameConstants, buildRouterModel, RouterModule, RouterNameConstants } from '@ohos/routermodule';
 import { InterviewPage } from '../../../../../../features/interview'
 import { ReportPage } from '../../../../../../features/report'
-import { ProfilePage } from '../../../../../../features/mine'
+import { PersonalPage } from '../../../../../../features/mine'
 
 @Entry
 @Component
@@ -60,31 +60,30 @@ struct EntryHap {
 
   build() {
     Navigation(this.entryHapRouter) {
-
-
-      Column() {
-        Tabs({ barPosition: BarPosition.End, controller: this.controller }) {
-          TabContent() {
-            InterviewPage()
-          }
-          .tabBar(this.TabBuilder('面试', 0, $r('app.media.interview_selected'), $r('app.media.interview_unselected')))
-
-          TabContent() {
-            ReportPage()
-          }
-          .tabBar(this.TabBuilder('报告', 1, $r('app.media.report_selected'), $r('app.media.report_unselected')))
-
-          TabContent() {
-            ProfilePage()
-          }
-          .tabBar(this.TabBuilder('我的', 2, $r('app.media.mine_selected'), $r('app.media.mine_unselected')))
+      Tabs({ barPosition: BarPosition.End, controller: this.controller }) {
+        TabContent() {
+          InterviewPage()
         }
-        .onChange((index: number) => {
-          this.currentIndex = index;
-        })
-      }
+        .tabBar(this.TabBuilder('面试', 0, $r('app.media.interview_selected'), $r('app.media.interview_unselected')))
 
+        TabContent() {
+          ReportPage()
+        }
+        .tabBar(this.TabBuilder('报告', 1, $r('app.media.report_selected'), $r('app.media.report_unselected')))
+
+        TabContent() {
+          PersonalPage()
+        }
+        .tabBar(this.TabBuilder('我的', 2, $r('app.media.mine_selected'), $r('app.media.mine_unselected')))
+      }
+      .width('100%')
+      .height('100%')
+      .onChange((index: number) => {
+        this.currentIndex = index;
+      })
     }
+    .hideTitleBar(true)
+    .hideToolBar(true)
     .navDestination(this.routerMap);
   }
 }

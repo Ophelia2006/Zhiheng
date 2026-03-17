@@ -19,7 +19,7 @@ export class BuilderNameConstants {
   static readonly INTERVIEW_DIALOG: string = '@ohos/interview_dialog';
   static readonly REPORT_LIST: string = '@ohos/report_list';
   static readonly REPORT_DETAIL: string = '@ohos/report_detail';
-  static readonly MINE_PERSONAL: string = '@ohos/mine_personal';
+  static readonly MINE_PROFILE: string = '@ohos/mine_profile';
   static readonly MINE_ACCOUNT: string = '@ohos/mine_account';
   static readonly HARA_A1: string = '@ohos/hara_A1';
   static readonly HARA_A2: string = '@ohos/hara_A2';

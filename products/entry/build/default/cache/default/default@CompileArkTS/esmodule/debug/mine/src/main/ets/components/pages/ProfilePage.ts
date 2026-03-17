@@ -25,6 +25,8 @@ export class ProfilePage extends ViewPU {
     initialRender() {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Scroll.create();
+            Scroll.scrollBar(BarState.Off);
+            Scroll.edgeEffect(EdgeEffect.None);
             Scroll.width('100%');
             Scroll.height('100%');
             Scroll.backgroundColor('#FFFFFF');
@@ -34,16 +36,12 @@ export class ProfilePage extends ViewPU {
             Column.width('100%');
         }, Column);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            // Status Bar Placeholder (Top "....." and "battery")
             // Header Section
             Column.create();
-            // Status Bar Placeholder (Top "....." and "battery")
             // Header Section
             Column.width('100%');
-            // Status Bar Placeholder (Top "....." and "battery")
             // Header Section
             Column.alignItems(HorizontalAlign.Start);
-            // Status Bar Placeholder (Top "....." and "battery")
             // Header Section
             Column.padding({ left: 30, right: 30 });
         }, Column);
@@ -85,7 +83,6 @@ export class ProfilePage extends ViewPU {
         }, Text);
         Text.pop();
         Row.pop();
-        // Status Bar Placeholder (Top "....." and "battery")
         // Header Section
         Column.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {

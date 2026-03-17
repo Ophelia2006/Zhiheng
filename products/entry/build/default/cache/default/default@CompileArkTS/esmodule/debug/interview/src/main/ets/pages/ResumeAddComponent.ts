@@ -6,6 +6,7 @@ interface ResumeAddComponent_Params {
     inputText?: string;
     scroller?: Scroller;
 }
+import { RouterModule, RouterNameConstants } from "@bundle:com.example.zhiheng/entry@RouterModule/Index";
 import type { Message } from '../model/Message';
 import { InterviewViewModel } from "@bundle:com.example.zhiheng/entry@interview/ets/ViewModel/InterviewViewModel";
 export class ResumeAddComponent extends ViewPU {
@@ -87,7 +88,7 @@ export class ResumeAddComponent extends ViewPU {
             Button.height(40);
             // Back Button
             Button.onClick(() => {
-                // this.pageStack.pop();
+                RouterModule.pop(RouterNameConstants.ENTRY_HAP);
             });
         }, Button);
         this.observeComponentCreation2((elmtId, isInitialRender) => {

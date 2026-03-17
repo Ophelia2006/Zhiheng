@@ -1,13 +1,14 @@
 import { BuilderNameConstants } from "@bundle:com.example.zhiheng/entry@RouterModule/Index";
-export { ProfilePage } from "@bundle:com.example.zhiheng/entry@mine/ets/components/pages/ProfilePage";
+export { PersonalPage } from "@bundle:com.example.zhiheng/entry@mine/ets/pages/PersonalPage";
+export { ProfileComponent as ProfilePage } from "@bundle:com.example.zhiheng/entry@mine/ets/pages/ProfileComponent";
 export function harInit(builderName: string): void {
     // 动态引入要跳转的页面
     switch (builderName) {
-        case BuilderNameConstants.HARC_C1:
-            import("@bundle:com.example.zhiheng/entry@mine/ets/components/pages/personal");
+        case BuilderNameConstants.MINE_PROFILE:
+            import("@bundle:com.example.zhiheng/entry@mine/ets/pages/ProfilePage");
             break;
-        case BuilderNameConstants.HARC_C2:
-            import("@bundle:com.example.zhiheng/entry@mine/ets/components/pages/account");
+        case BuilderNameConstants.MINE_ACCOUNT:
+            import("@bundle:com.example.zhiheng/entry@mine/ets/pages/account");
             break;
         default:
             break;

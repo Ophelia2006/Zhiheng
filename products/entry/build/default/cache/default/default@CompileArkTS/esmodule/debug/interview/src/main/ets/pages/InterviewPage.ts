@@ -24,7 +24,6 @@ export class InterviewPage extends ViewPU {
         SubscriberManager.Get().delete(this.id__());
         this.aboutToBeDeletedInternal();
     }
-    // @Consume('pageStack') pageStack: NavPathStack;
     initialRender() {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Stack.create({ alignContent: Alignment.Bottom });
@@ -46,7 +45,7 @@ export class InterviewPage extends ViewPU {
             // Bottom Card Section
             Column.create();
             // Bottom Card Section
-            Column.width('100%');
+            Column.width('95%');
             // Bottom Card Section
             Column.backgroundColor({ "id": 33554467, "type": 10001, params: [], "bundleName": "com.example.zhiheng", "moduleName": "entry" });
             // Bottom Card Section

@@ -13,16 +13,17 @@
 * limitations under the License.
 */
 import { BuilderNameConstants } from '@ohos/routermodule';
-export {ProfilePage}from './src/main/ets/components/pages/ProfilePage'
+export {PersonalPage}from './src/main/ets/pages/PersonalPage'
+export {ProfileComponent as ProfilePage} from './src/main/ets/pages/ProfileComponent'
 
 export function harInit(builderName: string): void {
   // 动态引入要跳转的页面
   switch (builderName) {
-    case BuilderNameConstants.HARC_C1:
-      import("./src/main/ets/components/pages/personal");
+    case BuilderNameConstants.MINE_PROFILE:
+      import("./src/main/ets/pages/ProfilePage");
       break;
-    case BuilderNameConstants.HARC_C2:
-      import("./src/main/ets/components/pages/account");
+    case BuilderNameConstants.MINE_ACCOUNT:
+      import("./src/main/ets/pages/account");
       break;
     default:
       break;

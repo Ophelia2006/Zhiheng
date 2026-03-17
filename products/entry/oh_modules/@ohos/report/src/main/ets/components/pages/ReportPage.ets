@@ -1,3 +1,4 @@
+import { BuilderNameConstants, buildRouterModel, RouterModule, RouterNameConstants } from '@ohos/routermodule';
 
 @Component
 export struct ReportPage {
@@ -22,19 +23,34 @@ export struct ReportPage {
         ListItem() {
           this.ListItemBuilder('Mar', '22', 'Java后端模拟面试', '45分')
         }
+        .onClick(()=>{
+          buildRouterModel(RouterNameConstants.ENTRY_HAP, BuilderNameConstants.REPORT_DETAIL);
+
+        })
         ListItem() {
           this.ListItemBuilder('Mar', '12', 'HarmonyOS面试', '34分')
         }
         ListItem() {
-          this.ListItemBuilder('Jan', '08', '2024 Roadmap', 'No pending bills')
+          this.ListItemBuilder('Mar', '22', 'Java后端模拟面试', '45分')
         }
         ListItem() {
-          this.ListItemBuilder('Jan', '08', 'Blood Panel', 'Complete')
+          this.ListItemBuilder('Mar', '12', 'HarmonyOS面试', '34分')
         }
         ListItem() {
-          this.ListItemBuilder('Jan', '01', 'Intake questionnaire', 'Complete')
+          this.ListItemBuilder('Mar', '22', 'Java后端模拟面试', '45分')
+        }
+        ListItem() {
+          this.ListItemBuilder('Mar', '12', 'HarmonyOS面试', '34分')
+        }
+        ListItem() {
+          this.ListItemBuilder('Mar', '22', 'Java后端模拟面试', '45分')
+        }
+        ListItem() {
+          this.ListItemBuilder('Mar', '12', 'HarmonyOS面试', '34分')
         }
       }
+      .scrollBar(BarState.Off)
+      .edgeEffect(EdgeEffect.None)
       .width('100%')
       .layoutWeight(1)
       .padding({ left: 25, right: 25 })

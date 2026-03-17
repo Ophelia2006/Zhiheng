@@ -9,7 +9,7 @@ interface EntryHap_Params {
 import { RouterModule, RouterNameConstants } from "@bundle:com.example.zhiheng/entry@RouterModule/Index";
 import { InterviewPage } from "@bundle:com.example.zhiheng/entry@interview/Index";
 import { ReportPage } from "@bundle:com.example.zhiheng/entry@report/Index";
-import { ProfilePage } from "@bundle:com.example.zhiheng/entry@mine/Index";
+import { PersonalPage } from "@bundle:com.example.zhiheng/entry@mine/Index";
 class EntryHap extends ViewPU {
     constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
         super(parent, __localStorage, elmtId, extraInfo);
@@ -96,13 +96,14 @@ class EntryHap extends ViewPU {
     initialRender() {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Navigation.create(this.entryHapRouter, { moduleName: "entry", pagePath: "products/entry/src/main/ets/pages/Index", isUserCreateStack: true });
+            Navigation.hideTitleBar(true);
+            Navigation.hideToolBar(true);
             Navigation.navDestination({ builder: this.routerMap.bind(this) });
         }, Navigation);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Column.create();
-        }, Column);
-        this.observeComponentCreation2((elmtId, isInitialRender) => {
             Tabs.create({ barPosition: BarPosition.End, controller: this.controller });
+            Tabs.width('100%');
+            Tabs.height('100%');
             Tabs.onChange((index: number) => {
                 this.currentIndex = index;
             });
@@ -112,7 +113,7 @@ class EntryHap extends ViewPU {
                 {
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
                         if (isInitialRender) {
-                            let componentCall = new InterviewPage(this, {}, undefined, elmtId, () => { }, { page: "products/entry/src/main/ets/pages/Index.ets", line: 68, col: 13 });
+                            let componentCall = new InterviewPage(this, {}, undefined, elmtId, () => { }, { page: "products/entry/src/main/ets/pages/Index.ets", line: 65, col: 11 });
                             ViewPU.create(componentCall);
                             let paramsLambda = () => {
                                 return {};
@@ -135,7 +136,7 @@ class EntryHap extends ViewPU {
                 {
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
                         if (isInitialRender) {
-                            let componentCall = new ReportPage(this, {}, undefined, elmtId, () => { }, { page: "products/entry/src/main/ets/pages/Index.ets", line: 73, col: 13 });
+                            let componentCall = new ReportPage(this, {}, undefined, elmtId, () => { }, { page: "products/entry/src/main/ets/pages/Index.ets", line: 70, col: 11 });
                             ViewPU.create(componentCall);
                             let paramsLambda = () => {
                                 return {};
@@ -158,7 +159,7 @@ class EntryHap extends ViewPU {
                 {
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
                         if (isInitialRender) {
-                            let componentCall = new ProfilePage(this, {}, undefined, elmtId, () => { }, { page: "products/entry/src/main/ets/pages/Index.ets", line: 78, col: 13 });
+                            let componentCall = new PersonalPage(this, {}, undefined, elmtId, () => { }, { page: "products/entry/src/main/ets/pages/Index.ets", line: 75, col: 11 });
                             ViewPU.create(componentCall);
                             let paramsLambda = () => {
                                 return {};
@@ -168,7 +169,7 @@ class EntryHap extends ViewPU {
                         else {
                             this.updateStateVarsOfChildByElmtId(elmtId, {});
                         }
-                    }, { name: "ProfilePage" });
+                    }, { name: "PersonalPage" });
                 }
             });
             TabContent.tabBar({ builder: () => {
@@ -177,7 +178,6 @@ class EntryHap extends ViewPU {
         }, TabContent);
         TabContent.pop();
         Tabs.pop();
-        Column.pop();
         Navigation.pop();
     }
     rerender() {

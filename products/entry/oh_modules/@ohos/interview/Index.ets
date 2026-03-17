@@ -23,7 +23,7 @@ export function harInit(builderName: string): void {
       import("./src/main/ets/pages/introduction");
       break;
     case BuilderNameConstants.INTERVIEW_DIALOG:
-      import("./src/main/ets/pages/dialog");
+      import("./src/main/ets/pages/DialogPage");
       break;
     default:
       break;

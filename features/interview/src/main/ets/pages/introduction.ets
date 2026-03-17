@@ -17,38 +17,8 @@ import { BuilderNameConstants, buildRouterModel, RouterModule, RouterNameConstan
 @Builder
 export function introductionBuilder(value: object) {
   NavDestination() {
-    Column() {
-      Text() {
-        Span($r('app.string.param'))
-        Span(JSON.stringify(value))
-      }
-        .margin(20)
-      Button($r('app.string.to_index'), { stateEffect: true, type: ButtonType.Capsule })
-        .width('80%')
-        .height(40)
-        .margin(20)
-        .onClick(() => {
-          RouterModule.clear(RouterNameConstants.ENTRY_HAP);
-        })
-      Button($r('app.string.to_hara_pageA2'), { stateEffect: true, type: ButtonType.Capsule })
-        .width('80%')
-        .height(40)
-        .margin(20)
-        .onClick(() => {
-          buildRouterModel(RouterNameConstants.ENTRY_HAP, BuilderNameConstants.HARA_A2);
-        })
-      Button($r('app.string.to_harb_pageB1'), { stateEffect: true, type: ButtonType.Capsule })
-        .width('80%')
-        .height(40)
-        .margin(20)
-        .onClick(() => {
-          buildRouterModel(RouterNameConstants.ENTRY_HAP, BuilderNameConstants.HARB_B1);
-        })
-    }
-    .width('100%')
-    .height('100%')
   }
-  .title('A1Page')
+  .title('Interview Introduction')
   .onBackPressed(() => {
     RouterModule.pop(RouterNameConstants.ENTRY_HAP);
     return true;

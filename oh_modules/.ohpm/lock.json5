@@ -102,8 +102,8 @@
       "dynamic": false,
       "maskedByOverrideDependencyMap": false
     },
-    "@ohos/interview@file:features/interview": {
-      "storePath": "features/interview",
+    "@ohos/mine@file:features/mine": {
+      "storePath": "features/mine",
       "dependencies": {
         "@ohos/routermodule": "commons/RouterModule"
       },
@@ -112,8 +112,8 @@
       "dynamic": false,
       "maskedByOverrideDependencyMap": false
     },
-    "@ohos/mine@file:features/mine": {
-      "storePath": "features/mine",
+    "@ohos/interview@file:features/interview": {
+      "storePath": "features/interview",
       "dependencies": {
         "@ohos/routermodule": "commons/RouterModule"
       },

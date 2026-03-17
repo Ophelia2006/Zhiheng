@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="EMPTY_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../../entry" />
+    <content url="file://$MODULE_DIR$/../..">
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/app/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/library/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/android/library/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.arkui-x/ios/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/RouterModule/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/RouterModule/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/RouterModule/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/RouterModule/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/RouterModule/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../commons/RouterModule/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/application/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/application/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/application/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/application/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/application/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/application/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/interview/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/interview/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/interview/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/interview/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/interview/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/interview/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/mine/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/mine/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/mine/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/mine/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/mine/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/mine/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/report/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/report/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/report/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/report/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/report/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../features/report/oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../oh_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/entry/.cxx" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/entry/.preview" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/entry/.test" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/entry/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/entry/node_modules" />
+      <excludeFolder url="file://$MODULE_DIR$/../../products/entry/oh_modules" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../products/entry" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

@@ -1,3 +1,4 @@
+import { BuilderNameConstants, buildRouterModel, RouterModule, RouterNameConstants } from '@ohos/routermodule';
 
 import { Message, MessageType } from '../model/Message';
 import { InterviewViewModel } from '../viewmodel/InterviewViewModel';
@@ -23,7 +24,7 @@ export struct ResumeAddComponent {
         .width(40)
         .height(40)
         .onClick(() => {
-          // this.pageStack.pop();
+          RouterModule.pop(RouterNameConstants.ENTRY_HAP)
         })
 
         // Title

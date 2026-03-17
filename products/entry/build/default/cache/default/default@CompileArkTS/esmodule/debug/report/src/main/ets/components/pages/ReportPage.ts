@@ -3,6 +3,7 @@ if (!("finalizeConstruction" in ViewPU.prototype)) {
 }
 interface ReportPage_Params {
 }
+import { BuilderNameConstants, buildRouterModel, RouterNameConstants } from "@bundle:com.example.zhiheng/entry@RouterModule/Index";
 export class ReportPage extends ViewPU {
     constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
         super(parent, __localStorage, elmtId, extraInfo);
@@ -48,12 +49,59 @@ export class ReportPage extends ViewPU {
             // List Content
             List.create({ space: 15 });
             // List Content
+            List.scrollBar(BarState.Off);
+            // List Content
+            List.edgeEffect(EdgeEffect.None);
+            // List Content
             List.width('100%');
             // List Content
             List.layoutWeight(1);
             // List Content
             List.padding({ left: 25, right: 25 });
         }, List);
+        {
+            const itemCreation = (elmtId, isInitialRender) => {
+                ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+                ListItem.create(deepRenderFunction, true);
+                if (!isInitialRender) {
+                    ListItem.pop();
+                }
+                ViewStackProcessor.StopGetAccessRecording();
+            };
+            const itemCreation2 = (elmtId, isInitialRender) => {
+                ListItem.create(deepRenderFunction, true);
+                ListItem.onClick(() => {
+                    buildRouterModel(RouterNameConstants.ENTRY_HAP, BuilderNameConstants.REPORT_DETAIL);
+                });
+            };
+            const deepRenderFunction = (elmtId, isInitialRender) => {
+                itemCreation(elmtId, isInitialRender);
+                this.ListItemBuilder.bind(this)('Mar', '22', 'Java后端模拟面试', '45分');
+                ListItem.pop();
+            };
+            this.observeComponentCreation2(itemCreation2, ListItem);
+            ListItem.pop();
+        }
+        {
+            const itemCreation = (elmtId, isInitialRender) => {
+                ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+                ListItem.create(deepRenderFunction, true);
+                if (!isInitialRender) {
+                    ListItem.pop();
+                }
+                ViewStackProcessor.StopGetAccessRecording();
+            };
+            const itemCreation2 = (elmtId, isInitialRender) => {
+                ListItem.create(deepRenderFunction, true);
+            };
+            const deepRenderFunction = (elmtId, isInitialRender) => {
+                itemCreation(elmtId, isInitialRender);
+                this.ListItemBuilder.bind(this)('Mar', '12', 'HarmonyOS面试', '34分');
+                ListItem.pop();
+            };
+            this.observeComponentCreation2(itemCreation2, ListItem);
+            ListItem.pop();
+        }
         {
             const itemCreation = (elmtId, isInitialRender) => {
                 ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
@@ -108,7 +156,7 @@ export class ReportPage extends ViewPU {
             };
             const deepRenderFunction = (elmtId, isInitialRender) => {
                 itemCreation(elmtId, isInitialRender);
-                this.ListItemBuilder.bind(this)('Jan', '08', '2024 Roadmap', 'No pending bills');
+                this.ListItemBuilder.bind(this)('Mar', '22', 'Java后端模拟面试', '45分');
                 ListItem.pop();
             };
             this.observeComponentCreation2(itemCreation2, ListItem);
@@ -128,7 +176,7 @@ export class ReportPage extends ViewPU {
             };
             const deepRenderFunction = (elmtId, isInitialRender) => {
                 itemCreation(elmtId, isInitialRender);
-                this.ListItemBuilder.bind(this)('Jan', '08', 'Blood Panel', 'Complete');
+                this.ListItemBuilder.bind(this)('Mar', '12', 'HarmonyOS面试', '34分');
                 ListItem.pop();
             };
             this.observeComponentCreation2(itemCreation2, ListItem);
@@ -148,7 +196,27 @@ export class ReportPage extends ViewPU {
             };
             const deepRenderFunction = (elmtId, isInitialRender) => {
                 itemCreation(elmtId, isInitialRender);
-                this.ListItemBuilder.bind(this)('Jan', '01', 'Intake questionnaire', 'Complete');
+                this.ListItemBuilder.bind(this)('Mar', '22', 'Java后端模拟面试', '45分');
+                ListItem.pop();
+            };
+            this.observeComponentCreation2(itemCreation2, ListItem);
+            ListItem.pop();
+        }
+        {
+            const itemCreation = (elmtId, isInitialRender) => {
+                ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+                ListItem.create(deepRenderFunction, true);
+                if (!isInitialRender) {
+                    ListItem.pop();
+                }
+                ViewStackProcessor.StopGetAccessRecording();
+            };
+            const itemCreation2 = (elmtId, isInitialRender) => {
+                ListItem.create(deepRenderFunction, true);
+            };
+            const deepRenderFunction = (elmtId, isInitialRender) => {
+                itemCreation(elmtId, isInitialRender);
+                this.ListItemBuilder.bind(this)('Mar', '12', 'HarmonyOS面试', '34分');
                 ListItem.pop();
             };
             this.observeComponentCreation2(itemCreation2, ListItem);

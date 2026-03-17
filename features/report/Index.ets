@@ -22,8 +22,8 @@ export function harInit(builderName: string): void {
     case BuilderNameConstants.HARB_B1:
       import("./src/main/ets/components/pages/list");
       break;
-    case BuilderNameConstants.HARB_B2:
-      import("./src/main/ets/components/pages/detail");
+    case BuilderNameConstants.REPORT_DETAIL:
+      import("./src/main/ets/components/pages/ReportDetailPage");
       break;
     case BuilderNameConstants.HARB_B3:
       import("./src/main/ets/components/pages/B3");
