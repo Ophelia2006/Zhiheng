@@ -14,6 +14,7 @@
 */
 
 import { BuilderNameConstants, buildRouterModel, RouterModule, RouterNameConstants } from '@ohos/routermodule';
+import { AuthService } from '@ohos/auth';
 import { InterviewPage } from '../../../../../../features/interview'
 import { ReportPage } from '../../../../../../features/report'
 import { PersonalPage } from '../../../../../../features/mine'
@@ -40,6 +41,12 @@ struct EntryHap {
     .height(50)
     .justifyContent(FlexAlign.Center)
     .onClick(() => {
+      // 拦截“我的”Tab点击：如果未登录，跳转登录页，不切换Tab
+      if (targetIndex === 2 && !AuthService.checkLogin()) {
+        buildRouterModel(RouterNameConstants.ENTRY_HAP, BuilderNameConstants.LOGIN_LOGIN);
+        return;
+      }
+      
       this.currentIndex = targetIndex;
       this.controller.changeIndex(targetIndex);
     })
@@ -84,7 +91,13 @@ struct EntryHap {
     }
     .hideTitleBar(true)
     .hideToolBar(true)
-    .navDestination(this.routerMap);
+    .navDestination(this.routerMap)
+    .onAppear(() => {
+      // 在 Tab 栏加载后，检查登录状态并跳转
+      if (!AuthService.checkLogin()) {
+        buildRouterModel(RouterNameConstants.ENTRY_HAP, BuilderNameConstants.LOGIN_LOGIN);
+      }
+    });
   }
 }
 

@@ -22,7 +22,8 @@
         "packages": [
           "@ohos/interview",
           "@ohos/report",
-          "@ohos/mine"
+          "@ohos/mine",
+          "@ohos/login"
         ]
       }
     }

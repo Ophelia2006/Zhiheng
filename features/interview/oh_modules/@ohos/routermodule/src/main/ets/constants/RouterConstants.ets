@@ -22,7 +22,7 @@ export class BuilderNameConstants {
   static readonly MINE_PROFILE: string = '@ohos/mine_profile';
   static readonly MINE_ACCOUNT: string = '@ohos/mine_account';
   static readonly LOGIN_LOGIN: string = '@ohos/login_login';
-  static readonly LOGIN_REGISTER: string = '@ohos/mine_registe';
+  static readonly LOGIN_REGISTER: string = '@ohos/login_register';
   static readonly HARA_A1: string = '@ohos/hara_A1';
   static readonly HARA_A2: string = '@ohos/hara_A2';
   static readonly HARB_B1: string = '@ohos/harb_B1';

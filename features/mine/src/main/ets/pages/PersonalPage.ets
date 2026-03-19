@@ -105,6 +105,10 @@ export struct PersonalPage {
             .alignItems(HorizontalAlign.Start)
             .justifyContent(FlexAlign.Start)
           }
+          .onClick(()=>{
+            buildRouterModel(RouterNameConstants.ENTRY_HAP, BuilderNameConstants.MINE_ACCOUNT);
+
+          })
 
           // Docs Card
           GridItem() {

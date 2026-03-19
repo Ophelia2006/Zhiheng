@@ -6,7 +6,8 @@ interface EntryHap_Params {
     currentIndex?: number;
     controller?: TabsController;
 }
-import { RouterModule, RouterNameConstants } from "@bundle:com.example.zhiheng/entry@RouterModule/Index";
+import { BuilderNameConstants, buildRouterModel, RouterModule, RouterNameConstants } from "@bundle:com.example.zhiheng/entry@RouterModule/Index";
+import { AuthService } from "@bundle:com.example.zhiheng/Auth/Index";
 import { InterviewPage } from "@bundle:com.example.zhiheng/entry@interview/Index";
 import { ReportPage } from "@bundle:com.example.zhiheng/entry@report/Index";
 import { PersonalPage } from "@bundle:com.example.zhiheng/entry@mine/Index";
@@ -67,6 +68,11 @@ class EntryHap extends ViewPU {
             Column.height(50);
             Column.justifyContent(FlexAlign.Center);
             Column.onClick(() => {
+                // 拦截“我的”Tab点击：如果未登录，跳转登录页，不切换Tab
+                if (targetIndex === 2 && !AuthService.checkLogin()) {
+                    buildRouterModel(RouterNameConstants.ENTRY_HAP, BuilderNameConstants.LOGIN_LOGIN);
+                    return;
+                }
                 this.currentIndex = targetIndex;
                 this.controller.changeIndex(targetIndex);
             });
@@ -99,6 +105,12 @@ class EntryHap extends ViewPU {
             Navigation.hideTitleBar(true);
             Navigation.hideToolBar(true);
             Navigation.navDestination({ builder: this.routerMap.bind(this) });
+            Navigation.onAppear(() => {
+                // 在 Tab 栏加载后，检查登录状态并跳转
+                if (!AuthService.checkLogin()) {
+                    buildRouterModel(RouterNameConstants.ENTRY_HAP, BuilderNameConstants.LOGIN_LOGIN);
+                }
+            });
         }, Navigation);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Tabs.create({ barPosition: BarPosition.End, controller: this.controller });
@@ -113,7 +125,7 @@ class EntryHap extends ViewPU {
                 {
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
                         if (isInitialRender) {
-                            let componentCall = new InterviewPage(this, {}, undefined, elmtId, () => { }, { page: "products/entry/src/main/ets/pages/Index.ets", line: 65, col: 11 });
+                            let componentCall = new InterviewPage(this, {}, undefined, elmtId, () => { }, { page: "products/entry/src/main/ets/pages/Index.ets", line: 72, col: 11 });
                             ViewPU.create(componentCall);
                             let paramsLambda = () => {
                                 return {};
@@ -136,7 +148,7 @@ class EntryHap extends ViewPU {
                 {
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
                         if (isInitialRender) {
-                            let componentCall = new ReportPage(this, {}, undefined, elmtId, () => { }, { page: "products/entry/src/main/ets/pages/Index.ets", line: 70, col: 11 });
+                            let componentCall = new ReportPage(this, {}, undefined, elmtId, () => { }, { page: "products/entry/src/main/ets/pages/Index.ets", line: 77, col: 11 });
                             ViewPU.create(componentCall);
                             let paramsLambda = () => {
                                 return {};
@@ -159,7 +171,7 @@ class EntryHap extends ViewPU {
                 {
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
                         if (isInitialRender) {
-                            let componentCall = new PersonalPage(this, {}, undefined, elmtId, () => { }, { page: "products/entry/src/main/ets/pages/Index.ets", line: 75, col: 11 });
+                            let componentCall = new PersonalPage(this, {}, undefined, elmtId, () => { }, { page: "products/entry/src/main/ets/pages/Index.ets", line: 82, col: 11 });
                             ViewPU.create(componentCall);
                             let paramsLambda = () => {
                                 return {};

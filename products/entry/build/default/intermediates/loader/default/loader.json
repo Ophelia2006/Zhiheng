@@ -4,7 +4,9 @@
     "interview": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\interview",
     "report": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report",
     "RouterModule": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\RouterModule",
-    "mine": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine"
+    "mine": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine",
+    "Auth": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth",
+    "login": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login"
   },
   "compileMode": "esmodule",
   "projectRootPath": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng",
@@ -12,7 +14,9 @@
   "byteCodeHarInfo": {},
   "declarationEntry": [],
   "moduleName": "entry",
-  "hspNameOhmMap": {},
+  "hspNameOhmMap": {
+    "@ohos/auth": "@bundle:com.example.zhiheng/Auth/Index"
+  },
   "harNameOhmMap": {},
   "packageManagerType": "ohpm",
   "compileEntry": [
@@ -30,10 +34,17 @@
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\ReportDetailPage.ets",
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\report\\src\\main\\ets\\components\\pages\\ReportPage.ets",
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\Index.ets",
-    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\account.ets",
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\AccountComponent.ets",
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\AccountPage.ets",
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\PersonalPage.ets",
     "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\ProfileComponent.ets",
-    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\ProfilePage.ets"
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\src\\main\\ets\\pages\\ProfilePage.ets",
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\Index.ets",
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\src\\main\\ets\\components\\MainPage.ets",
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\src\\main\\ets\\pages\\LoginComponent.ets",
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\src\\main\\ets\\pages\\LoginPage.ets",
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\src\\main\\ets\\pages\\RegisterComponent.ets",
+    "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\src\\main\\ets\\pages\\RegisterPage.ets"
   ],
   "otherCompileFiles": [],
   "dynamicImportLibInfo": {
@@ -72,10 +83,24 @@
       "entryFilePath": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine\\Index.ets",
       "isLocalDependency": true,
       "pkgPath": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\mine"
+    },
+    "@ohos/login": {
+      "hostModulesInfo": [
+        {
+          "hostDependencyName": "@ohos/login",
+          "hostModuleName": "entry"
+        }
+      ],
+      "moduleName": "login",
+      "entryFilePath": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login\\Index.ets",
+      "isLocalDependency": true,
+      "pkgPath": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\features\\login"
     }
   },
   "routerMap": [],
-  "hspResourcesMap": {},
+  "hspResourcesMap": {
+    "Auth": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\commons\\Auth\\build\\default\\intermediates\\res\\default\\ResourceTable.txt"
+  },
   "updateVersionInfo": {},
   "anBuildOutPut": "D:\\ProjectForPractice\\Zhiheng\\Zhiheng\\Zhiheng\\products\\entry\\build\\default\\intermediates\\loader_out\\default\\an\\arm64-v8a",
   "anBuildMode": "type",

@@ -23,7 +23,7 @@ export function harInit(builderName: string): void {
       import("./src/main/ets/pages/ProfilePage");
       break;
     case BuilderNameConstants.MINE_ACCOUNT:
-      import("./src/main/ets/pages/account");
+      import("./src/main/ets/pages/AccountPage");
       break;
     default:
       break;

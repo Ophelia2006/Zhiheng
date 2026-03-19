@@ -51,7 +51,10 @@
 		"packageName":	"entry",
 		"virtualMachine":	"ark12.0.6.0",
 		"compileMode":	"esmodule",
-		"dependencies":	[],
+		"dependencies":	[{
+				"moduleName":	"Auth",
+				"versionCode":	1000000
+			}],
 		"descriptionId":	33554436
 	}
 }

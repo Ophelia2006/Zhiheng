@@ -31,6 +31,7 @@ color text_primary 0x02000027
 color text_secondary 0x02000028
 color user_avatar_bg 0x02000029
 color user_custom_bg 0x0200002a
+float page_text_font_size 0x03000000
 media about_us 0x0200002c
 media account 0x0200002d
 media app_icon 0x02000001

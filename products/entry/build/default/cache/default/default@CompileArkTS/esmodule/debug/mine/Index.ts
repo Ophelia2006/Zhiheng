@@ -8,7 +8,7 @@ export function harInit(builderName: string): void {
             import("@bundle:com.example.zhiheng/entry@mine/ets/pages/ProfilePage");
             break;
         case BuilderNameConstants.MINE_ACCOUNT:
-            import("@bundle:com.example.zhiheng/entry@mine/ets/pages/account");
+            import("@bundle:com.example.zhiheng/entry@mine/ets/pages/AccountPage");
             break;
         default:
             break;

@@ -195,5 +195,9 @@
 			"type":	"media",
 			"name":	"zhiheng_avatar",
 			"id":	"0x02000030"
+		}, {
+			"type":	"float",
+			"name":	"page_text_font_size",
+			"id":	"0x03000000"
 		}]
 }

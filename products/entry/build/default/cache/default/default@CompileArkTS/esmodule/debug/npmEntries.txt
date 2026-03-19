@@ -4,6 +4,8 @@ pkg_modules@entry/@ohos/report:com.example.zhiheng/entry@report/Index
 @ohos/report:@bundle.com.example.zhiheng/entry@report/Index
 pkg_modules@entry/@ohos/mine:com.example.zhiheng/entry@mine/Index
 @ohos/mine:@bundle.com.example.zhiheng/entry@mine/Index
+pkg_modules@entry/@ohos/login:com.example.zhiheng/entry@login/Index
+@ohos/login:@bundle.com.example.zhiheng/entry@login/Index
 @system.app:@native.system.app
 @ohos.app:@native.ohos.app
 @system.router:@native.system.router

@@ -47,6 +47,10 @@
         "@ohos/routermodule": {
           "specifier": "file:commons/RouterModule",
           "version": "file:commons/RouterModule"
+        },
+        "@ohos/auth": {
+          "specifier": "file:commons/Auth",
+          "version": "file:commons/Auth"
         }
       },
       "devDependencies": {},
@@ -59,6 +63,10 @@
         "@ohos/routermodule": {
           "specifier": "file:commons/RouterModule",
           "version": "file:commons/RouterModule"
+        },
+        "@ohos/auth": {
+          "specifier": "file:commons/Auth",
+          "version": "file:commons/Auth"
         }
       },
       "devDependencies": {},
@@ -95,6 +103,14 @@
         "@ohos/mine": {
           "specifier": "file:features/mine",
           "version": "file:features/mine"
+        },
+        "@ohos/auth": {
+          "specifier": "file:commons/Auth",
+          "version": "file:commons/Auth"
+        },
+        "@ohos/login": {
+          "specifier": "file:features/login",
+          "version": "file:features/login"
         }
       },
       "devDependencies": {},
@@ -111,11 +127,9 @@
       "dynamic": false,
       "maskedByOverrideDependencyMap": false
     },
-    "@ohos/interview@file:features/interview": {
-      "storePath": "features/interview",
-      "dependencies": {
-        "@ohos/routermodule": "commons/RouterModule"
-      },
+    "@ohos/auth@file:commons/Auth": {
+      "storePath": "commons/Auth",
+      "dependencies": {},
       "dynamicDependencies": {},
       "dev": false,
       "dynamic": false,
@@ -123,6 +137,28 @@
     },
     "@ohos/mine@file:features/mine": {
       "storePath": "features/mine",
+      "dependencies": {
+        "@ohos/routermodule": "commons/RouterModule",
+        "@ohos/auth": "commons/Auth"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/login@file:features/login": {
+      "storePath": "features/login",
+      "dependencies": {
+        "@ohos/routermodule": "commons/RouterModule",
+        "@ohos/auth": "commons/Auth"
+      },
+      "dynamicDependencies": {},
+      "dev": false,
+      "dynamic": false,
+      "maskedByOverrideDependencyMap": false
+    },
+    "@ohos/interview@file:features/interview": {
+      "storePath": "features/interview",
       "dependencies": {
         "@ohos/routermodule": "commons/RouterModule"
       },

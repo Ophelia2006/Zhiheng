@@ -6,6 +6,7 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "@ohos/routermodule": "file:../../commons/RouterModule"
+    "@ohos/routermodule": "file:../../commons/RouterModule",
+    "@ohos/auth": "file:../../commons/Auth"
   }
 }

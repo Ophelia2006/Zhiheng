@@ -154,6 +154,10 @@ export class PersonalPage extends ViewPU {
         {
             const itemCreation2 = (elmtId, isInitialRender) => {
                 GridItem.create(() => { }, false);
+                // Security Card
+                GridItem.onClick(() => {
+                    buildRouterModel(RouterNameConstants.ENTRY_HAP, BuilderNameConstants.MINE_ACCOUNT);
+                });
             };
             const observedDeepRender = () => {
                 this.observeComponentCreation2(itemCreation2, GridItem);

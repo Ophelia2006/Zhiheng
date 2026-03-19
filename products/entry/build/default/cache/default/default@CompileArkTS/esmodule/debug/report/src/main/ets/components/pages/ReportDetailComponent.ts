@@ -95,7 +95,7 @@ export class ReportDetailComponent extends ViewPU {
             Column.width('100%');
             Column.padding(20);
             Column.backgroundColor('#FFFFFF');
-            Column.borderRadius(16);
+            Column.borderRadius(30);
             Column.alignItems(HorizontalAlign.Center);
             Column.shadow({ radius: 10, color: '#0A000000', offsetX: 0, offsetY: 4 });
         }, Column);
@@ -135,7 +135,7 @@ export class ReportDetailComponent extends ViewPU {
             Column.width('100%');
             Column.padding(20);
             Column.backgroundColor('#FFFFFF');
-            Column.borderRadius(16);
+            Column.borderRadius(30);
             Column.shadow({ radius: 10, color: '#0A000000', offsetX: 0, offsetY: 4 });
         }, Column);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
@@ -257,7 +257,7 @@ export class ReportDetailComponent extends ViewPU {
             Column.width('100%');
             Column.padding(20);
             Column.backgroundColor('#FFFFFF');
-            Column.borderRadius(16);
+            Column.borderRadius(30);
             Column.shadow({ radius: 10, color: '#0A000000', offsetX: 0, offsetY: 4 });
         }, Column);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
@@ -301,7 +301,7 @@ export class ReportDetailComponent extends ViewPU {
             Column.width('100%');
             Column.padding(20);
             Column.backgroundColor('#FFFFFF');
-            Column.borderRadius(16);
+            Column.borderRadius(30);
             Column.shadow({ radius: 10, color: '#0A000000', offsetX: 0, offsetY: 4 });
         }, Column);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
@@ -385,7 +385,7 @@ export class ReportDetailComponent extends ViewPU {
             Column.width('100%');
             Column.padding(20);
             Column.backgroundColor('#FFFFFF');
-            Column.borderRadius(16);
+            Column.borderRadius(30);
             Column.shadow({ radius: 10, color: '#0A000000', offsetX: 0, offsetY: 4 });
         }, Column);
         this.observeComponentCreation2((elmtId, isInitialRender) => {

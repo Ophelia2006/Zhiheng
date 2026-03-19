@@ -23,7 +23,9 @@
     "@ohos/routermodule": "file:../../commons/RouterModule",
     "@ohos/interview": "file:../../features/interview",
     "@ohos/report": "file:../../features/report",
-    "@ohos/mine": "file:../../features/mine"
+    "@ohos/mine": "file:../../features/mine",
+    "@ohos/auth": "file:../../commons/Auth",
+    "@ohos/login": "file:../../features/login"
   }
 }
 
