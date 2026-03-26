@@ -1,7 +1,7 @@
 import { BuilderNameConstants, buildRouterModel, RouterModule, RouterNameConstants } from '@ohos/routermodule';
 
 import { Message, MessageType } from '../model/Message';
-import { InterviewViewModel } from '../viewmodel/InterviewViewModel';
+import { InterviewViewModel } from '../viewmodels/InterviewViewModel';
 import image from '@ohos.multimedia.image';
 
 @Component
