@@ -1,0 +1,16 @@
+{
+  "name": "report",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ohos/mpchart": "^3.0.0",
+    "@ohos/routermodule": "file:../../commons/RouterModule",
+    "@ohos/model": "file:../../commons/Model",
+    "@ohos/network": "file:../../commons/Network"
+  },
+  "devDependencies": {},
+  "dynamicDependencies": {}
+}

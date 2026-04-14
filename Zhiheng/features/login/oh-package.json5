@@ -1,0 +1,13 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "Index.ets",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@ohos/routermodule": "file:../../commons/RouterModule",
+    "@ohos/auth": "file:../../commons/Auth",
+    "@ohos/network": "file:../../commons/Network"
+  }
+}

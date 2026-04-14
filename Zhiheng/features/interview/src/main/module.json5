@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "interview",
+    "type": "har",
+    "deviceTypes": [
+      "phone"
+    ]
+  }
+}

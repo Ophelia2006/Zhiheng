@@ -1,0 +1,106 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Ophelia\\.ohos\\config\\default_Zhiheng_tXgDBCbFREDE5QirL0JJMMeWvHawx4EBD_Slu3IDD8Q=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B79312237105C9545066686028BCDDBD0C8C6FB6E247B8222DCCD13E4B76472B730085E8423E5C0",
+          "profile": "C:\\Users\\Ophelia\\.ohos\\config\\default_Zhiheng_tXgDBCbFREDE5QirL0JJMMeWvHawx4EBD_Slu3IDD8Q=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Ophelia\\.ohos\\config\\default_Zhiheng_tXgDBCbFREDE5QirL0JJMMeWvHawx4EBD_Slu3IDD8Q=.p12",
+          "storePassword": "0000001BD80F1B33918BFC8CB9B276F0A82C609E6E4792DBEE272AB5944BA994B240B4B6BB99356FB3E69C"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.5(17)",
+        "targetSdkVersion": "5.0.5(17)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./products/entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "interview",
+      "srcPath": "./features/interview"
+    },
+    {
+      "name": "report",
+      "srcPath": "./features/report"
+    },
+    {
+      "name": "RouterModule",
+      "srcPath": "./commons/RouterModule"
+    },
+    {
+      "name": "mine",
+      "srcPath": "./features/mine"
+    },
+    {
+      "name": "Auth",
+      "srcPath": "./commons/Auth",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "login",
+      "srcPath": "./features/login",
+    },
+    {
+      "name": "Model",
+      "srcPath": "./commons/Model",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Network",
+      "srcPath": "./commons/Network",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

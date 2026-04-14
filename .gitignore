@@ -1,0 +1,7 @@
+build/
+.hvigor/
+.idea/
+oh_modules/
+*.protoBin
+*.log
+.cache/
